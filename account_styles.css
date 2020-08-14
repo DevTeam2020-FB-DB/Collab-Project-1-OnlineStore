@@ -1,0 +1,65 @@
+.form-container {
+    width:40%;
+    height:30%;
+    border:1px solid #666;
+    margin:20vh auto;
+    padding: 25px;
+    text-align:center;
+}
+.form-head{
+    padding-bottom:10px;
+}
+.form-row{
+    display:inline-block;
+    width:90%;
+    margin:5px auto;
+}
+.login-block{
+    width:50%;
+    margin:auto;
+}
+.login-field{
+    display:block;
+    width:100%;
+    margin:5px auto;
+    text-align:center;
+}
+.form-button{
+    background:transparent;
+    border:1px solid #666;
+    margin-top:10px;
+}
+.login-field:active, .login-field:hover, .form-button:hover, .create-field:hover{
+    border:1px solid #dc9814;
+}
+.account-benefits>ul{
+    list-style: none;
+}
+.create-field{
+    display:inline-block;
+    width:40%;
+    margin:5px auto;
+    text-align:center;
+}
+.password-requirements{
+    text-align:left;
+    margin:5px auto auto 15%;
+}
+dd{
+    text-indent:15px;
+}
+@media (max-width: 935px){
+    .form-container{
+        width:65%;
+    }
+}
+@media (max-width: 767px){
+    .form-container{
+        width:75%;
+    }
+}
+@media (max-width: 498px){
+    .form-container{
+        width:90%;
+    }
+}
