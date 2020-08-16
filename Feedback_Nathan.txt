@@ -1,0 +1,14 @@
+Feedback Notes and Modificaions: Nathan.
+
+
+
+
+1. Lots of repetition among HTML files: 
+
+    ---> Sidebar listings for "Men", "Women", "Teens", "Kids", and "Menu" contains 4 sub-category sub-headings and 4 sample product cards on each html page. 
+
+    ---> Much of this can be reduced so that each HTML page can be reduced to its unique features while maintaining common structure. 
+
+
+
+
