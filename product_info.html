@@ -1,0 +1,535 @@
+<!doctype html>
+<html >
+
+  <html class="no-js"> 
+  <head>
+
+    <!-- Basic page needs and meta tags============================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NDemand">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="NDemand">
+
+    <title>NDemand</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="">    
+    
+    <!-- Font family -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,700i' rel='stylesheet' type='text/css'>
+
+    <!-- Styles -->
+    <link href="responsive_styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./styles/account_styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link href="../styles/extension_styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../styles/asset_styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../styles/theme_core_styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="account_styles.css" rel="stylesheet" type="text/css" media="all"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/997e8bbd00.js" crossorigin="anonymous"></script>
+    <!-- Theme base and media queries -->
+
+
+    <!-- Scripts -->
+    
+  </head>
+  
+<!--Site is organized larger screen layout (sidebar nav) first. The small screen layout (top bar nav) is further down -->
+  <body id="nDemand" class="template-index">
+    <div class="wrapper-container">
+
+
+<!--Begin header content: includes menus and nav bars-->
+      <header class="header-wrapper">
+        <div id="section-header" class="shopify-section">
+          <div data-section-id="header" data-section-type="header-section" class="header-layout-05">
+            <div id="header-content">
+              <div class="header" id="top">
+                <div class="container">
+                  <div class="header-inner">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-12 col-12 logo-container">
+                        <h1 class="logo" itemscope itemtype="http://schema.org/Organization">
+                          <a href=""><img class="" src="../images/site_logo.png" style="height:30px; width:auto;" /><!--Site Title logo/link-->
+                          </a>
+                        </h1>
+                        <div class="logo-sticky">
+                          <a href=""><img class="" src="../images/site_logo.png" style="height:30px; width:auto;" /><!--Site Title logo/link-->
+                          </a>
+                        </div>
+                      </div>
+                      <div class="menu-main-home menu col-md-6 col-sm-12 col-12">
+                        <div class="menu-top">
+                          <div class="menu-action">
+<!--Top Menu -->
+                            <div class=" megamenu">
+                              <ul class="navbar-nav site-nav">
+
+                                <!--Nathan: Try to remove the nested sub-menu content for "Men", "Women", "Teen", and "Kids"-->
+                                <!--The <li> tags with Men, Women, Teen Text can be kept-->
+
+                                <!--Men SubMenu Start-->
+                                <li class="  level-top menu-dropdown megamenu-dropdow"><a href="" class=""><span>Men</span><i class="fas fa-chevron-right"></i></a>
+                                
+                                </li>
+                                <!--Men SubMenu End-->
+
+                                <!--Women SubMenu Start-->
+                                <li class="  level-top menu-dropdown megamenu-dropdow"><a href="" class=""><span>Women</span><i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                <!--Women SubMenu End-->
+
+                                <!--Teen SubMenu Start-->
+                                <li class="  level-top menu-dropdown megamenu-dropdow"><a href="" class=""><span>Teens</span><i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                <!--Teen SubMenu End-->
+
+
+                                <!--Kid SubMenu Start-->
+                                <li class="  level-top menu-dropdown megamenu-dropdow"><a href="" class=""><span>Kids</span><i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                <!--Kid SubMenu End-->
+
+
+<!--We didn't discuss having this section of the menu but I thought it might be a good idea to include. We can very easily remove it if needed-->
+                                <li class="  level-top menu-dropdown"><a href="" class=""><span>Menu</span><i class="fas fa-chevron-right"></i></a>
+                                  <div class="dropdown-sub level1">
+                                    <ul>
+                                      <li class="">
+                                        <a href="" class=""><span>About Us</span></a>
+                                      </li>
+                                      <li class="">
+                                        <a href="" class=""><span>Contact Us</span></a>
+                                      </li>
+                                      <li class="">
+                                        <a href="" class=""><span>Faqs</span></a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>  
+        <!-- End Menu --> </div>
+                        </div>
+                      </div>
+                      <div class="header-cart-container menu col-md-3 col-sm-12 col-12">
+                        <div class="search-top-container site-search">
+                          <div id="search-top">
+                            <div class="search-form">
+                              <div class="searchbox">
+                                <form action="/search" method="get" class="input-group search-bar navbar-form search" role="search">
+                                  <input type="hidden" name="type" value="product">
+                                  <input type="text" name="q" class="input-group-field input__field-2" aria-label="Search Site" autocomplete="off" data-translate="header.search_placeholder" placeholder="Search product">
+                                  <span class="input-group-btn"><!--FIX-->
+                                    <button type="submit"><i class="fas fa-search"></i></button>
+                                  </span>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="top-currency">
+                          <span class="dropdown-icon">
+                            <i class="fas fa-user"></i>
+                          </span>
+                          <div class="top-bar-dropdown">
+                            <div class="cusstom-link">
+                              <ul class="customer-links">
+                                <li class="wishlist-menu">
+                                  <i class="far fa-heart"></i>
+                                  <a href="/pages/wish-list" title="My Wishlist">My Wishlist</a>
+                                </li>
+                                <li><i class="fas fa-check" aria-hidden="true"></i><a href=""><span>Checkout</span></a></li>
+                                <li><i class="fas fa-lock-open" aria-hidden="true"></i>
+                                  <a href="">Sign In</a>
+                                </li>
+                                <li><i class="fas fa-user" aria-hidden="true"></i>
+                                  <a href="">Create an account</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="header-cart">
+              <!--%include 'customer_links' %-->
+                          <div class="top-cart-wr">
+                            <div class="top-cart">
+                              <a href="" class="cartToggle">
+                                <i class="fas fa-shopping-cart"></i>
+                                <div class="minicart-wr">
+                                  <span class="cart-count"> Cart (0)</span>
+                                </div>
+                              </a> 
+                            </div>
+                          </div>
+      <!-- End Top Header --> 
+                        </div>
+      <!--Begin currency dropdown. Include flags or symbols next to the currency names?-->
+                        <div class="header-currency">
+                          <div id="currencies-top" class="click-function">
+                            <label>Currency: </label>
+                            <div class="popup-title dropdown-toggle">
+                              <span id="" class=" pre-currencies text-label"><img src="" alt="" /> USD</span><i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="dropdown-currency">
+                              <ul id="" class="currencies currencies_ul list-unstyle">
+                                <li class="">
+                                  <a data-currency="USD" class=" currency selected" rel="nofollow">                                
+                                    <img src="" alt="" />USD
+                                  </a>
+                                </li>
+                                <li class="">
+                                  <a data-currency="EUR" class=" currency " rel="nofollow">                                
+                                    <img src="" alt="" />EUR
+                                  </a>
+                                </li>
+                                <li class="">
+                                  <a data-currency="AUD" class=" currency " rel="nofollow">                                
+                                    <img src="" alt="" />AUD
+                                  </a>
+                                </li>
+                                <li class="">
+                                  <a data-currency="GBP" class=" currency " rel="nofollow">                                
+                                    <img src="" alt="" />GBP
+                                  </a>
+                                </li>
+                                <li class="">
+                                  <a data-currency="JPY" class=" currency " rel="nofollow">                                
+                                    <img src="" alt="" />JPY
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+      <!--The following script changes the currency when the user clicks in the menu-->
+<script>
+  jQuery(function() {jQuery('.currencies li a').on('click', function() {jQuery('.pre-currencies').attr('data-currency', jQuery(this).data('currency'));});});
+</script>
+                        </div>
+                        <div class="header-language">
+                          <div class="header-language-inner">
+                            <ul class="language_droplist" data-css="">
+                            </ul>
+                          </div>
+                        </div>
+                      </div>   
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--this is the layout for large screens-->
+<script>
+  jQuery('body').addClass("header-layout-8");
+</script>
+            <div id="header-mobile">
+              <div class="container">
+                <div class="toggle-search">
+                  <div class="toggle-me">
+                    <div class="toggle-menu">
+                      <button class="navbar-toggle btn-menu-canvas" data-toggle="offcanvas" data-target="#off-canvas-nav">
+                        <i class="fas fa-bars"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="icon-search"><i class="fas fa-search" style="font-size:x-large; color:black;"></i></div>
+                </div>
+                <div class="logo-avc">
+                  <h1 class="logo" itemscope itemtype="http://schema.org/Organization">
+                    <a href="">
+                      <img class="" src="../images/site_logo.png" style="height:30px; width:auto;" /><!--Site Title logo/link-->
+                    </a>
+                  </h1>
+                  <div class="logo-sticky">
+                    <a href="">
+                      <img class="" src="../images/site_logo.png" style="height:30px; width:auto;" /><!--Site Title-->
+                    </a>
+                  </div>
+                </div>
+                <div class="wishlist-cart">
+                  <div class="wishlist-header">
+                    <a href="" title="My Wishlist"><i class="far fa-heart"></i></a>
+                  </div>
+                  <div class="header-cart 1">
+                    <div class="top-cart">
+                      <div class="top-cart">
+                        <a href="" class="cartToggle">
+                          <i class="fas fa-shopping-cart"></i>
+                        </a> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="dropdown-cart" class="js-popup-cart-ajax" data-popup-content> 
+              <div class="continue-shoping">
+                <span>My Cart <span class="header-cart-count">(<span class="cart-count">0</span>)</span></span>
+                <a><i class="fas fa-times-circle"></i></a>
+              </div><!--************-->
+              <div class="cart-empty">
+                <p>No products in the cart.</p>
+              </div>
+              <div class="mini_cart_header">
+                <ol class="cart-list">  
+                  
+                </ol>
+                <div class="wrap-btcart">
+                  <div class="summary">                
+                    <p class="total">
+                      <span class="label" style="color:#000">Total:</span>
+                      <span class="price"><span class=money>$0.00 </span></span> 
+                    </p>
+                  </div>
+                  <div class="progres-cart">
+                    <div class="progressbar">
+                      <div class="less-than-ten"> </div>
+                      <p class="cart-congrats"><i class="fas fa-shipping-fast"></i>Spend <span class="moneys">Price</span> to get Free Shipping</p>
+                      <p class="full-free-ship"><i class="fas fa-shipping-fast"></i>Free Shipping</p>
+                    </div>
+                  </div>
+                  <div class="actions">
+                    <div class="view-cart">
+                      <a class="harman_btn4" href=""><span data-hover="View Cart">View Cart</span></a>
+                    </div>
+                    <button class="btn harman_btn4" onclick="window.location=''"><span data-hover="Checkout">Checkout</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="search-top-container site-search hidden-menu-left">
+              <div id="search-top">
+                <div class="search-form" style="display: none;">
+                  <div class="search-close">
+                    <i class="fas fa-times-circle"></i><!--*******-->
+                  </div>
+                  <div class="header-search-icon">
+                    <i class="fas fa-search"></i>
+                  </div>
+                  <p>WHAT ARE YOU LOOKING FOR?</p>
+                  <div class="searchbox">
+                    <form action="/search" method="get" class="input-group search-bar navbar-form search" role="search">
+                      <input type="hidden" name="type" value="product">
+                      <input type="text" name="q" class="input-group-field input__field-2" aria-label="Search Site" autocomplete="off" data-translate="header.search_placeholder" placeholder="Search product">
+                      <span class="input-group-btn">
+                        <button type="submit">Search</button>
+                      </span>
+                    </form>
+                  </div>
+                </div>
+                <div class="overlay-search"></div>
+              </div>
+            </div>
+            <div class="nm-page-overlay"></div>
+          </div>
+        </div>
+      </header>
+      <div class="product-quickview"></div>
+      <main class="main-content" >
+        <div class="container main_container">
+<!-- BEGIN content for prdouct information -->
+            <div class="product-container">
+              <table>
+                <tr class="product-row">
+                    <td class="product-image-container">
+<!--Product images component-->
+                      <img src="images/abstract-q-c-400-400-10.jpg" class="product-thumb main-product-image" height="500" width="500">
+                      <div class="product-image-carousel">
+                        <img src="images/abstract-q-c-400-400-10.jpg" class="carousel-image">
+                        <img src="images/abstract-q-c-400-400-10.jpg" class="carousel-image">
+                        <img src="images/abstract-q-c-400-400-10.jpg" class="carousel-image">
+                        <img src="images/abstract-q-c-400-400-10.jpg" class="carousel-image">
+                        <img src="images/abstract-q-c-400-400-10.jpg" class="carousel-image">
+                      </div>
+                    </td>
+                    <td class="product-description-container product-info-container">
+<!--Product Description as unordered list. Can be anything in any format. this is just the container for it-->
+                      <h3 class="product-title">Product Name</h3>
+                      <div class="description-container">
+                        <ul class="product-description">
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aliquam? Beatae necessitatibus reprehenderit voluptatem quos.</li>
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, rerum.</li>
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus nisi nostrum ut nulla voluptatem excepturi, magni dolorum deserunt eaque!</li>
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos omnis aperiam magni exercitationem, deleniti laudantium corporis eius.</li>
+                          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In eaque magnam nostrum voluptatem?</li>
+                        </ul>
+                        <p class="product-description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur omnis, dolorum deleniti corrupti debitis eos eum exercitationem fugit. Cumque distinctio officiis voluptate rerum, amet, recusandae iste ut sed quibusdam dolore commodi a. Neque vitae, odio molestiae in totam porro nihil obcaecati corporis, eum blanditiis, ipsum iusto consectetur a iure tenetur?
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="product-row">
+                    <td colspan="2">
+<!--component for reviews-->
+                      <div class="product-review-container product-info-container">
+                        <h3 class="product-title review-title">Reviews</h3>
+                        <button class="review-btn form-button">Write a Review</button>
+                        <p>No Reviews yet...</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="product-row">
+                    <td colspan="2">
+                      <div class="related-product-container">
+<!--component for related products to be automatically populated. Might need a place for short descriptions as well-->
+                        <h3 class="rel-prod" style="text-align:center; margin-top:15px;">YOU MAY ALSO LIKE</h3>
+                        <div class="rel-prod-carousel">
+                          <a href="" class="rel-prod-link"><img src="./images/abstract-q-c-400-400-10.jpg" alt="" class="related-image"></a>
+                          <a href="" class="rel-prod-link"><img src="./images/abstract-q-c-400-400-10.jpg" alt="" class="related-image"></a>
+                          <a href="" class="rel-prod-link"><img src="./images/abstract-q-c-400-400-10.jpg" alt="" class="related-image"></a>
+                          <a href="" class="rel-prod-link"><img src="./images/abstract-q-c-400-400-10.jpg" alt="" class="related-image"></a>
+                          <a href="" class="rel-prod-link"><img src="./images/abstract-q-c-400-400-10.jpg" alt="" class="related-image"></a>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+              </table>
+            </div>
+            <div class="product-stats-container sticky-container">
+              <form action="" name="product-specs">
+                <div class="stat-row">
+                  <select id="product-size">
+<!--Maybe needs a different template depending on type of clothing. For instance, shoes are sized differently than pants. Or perhaps the options are populated from the back end depending on product type-->
+                    <option value="size" selected="selected" disabled="disabled">Size...</option>
+                    <option value="size1">size1</option>
+                    <option value="size2">size2</option>
+                    <option value="size3">size3</option>
+                    <option value="size4">size4</option>
+                    <option value="size5">size5</option>
+                  </select>
+                  <span class="stat-ex size-ex"></span>
+                </div>
+                <div class="stat-row">
+                  <select id="product-color">
+                    <option value="color" selected="selected" disabled="disabled">Color...</option>
+                    <option value="color1">color1</option>
+                    <option value="color2">color2</option>
+                    <option value="color3">color3</option>
+                    <option value="color4">color4</option>
+                    <option value="color5">color5</option>
+                  </select>
+                  <span class="stat-ex color-ex"></span>
+                </div>
+                <div class="stat-row">
+                  <select id="product-quantity">
+                    <option value="qty1">1</option>
+                    <option value="qty2">2</option>
+                    <option value="qty3">3</option>
+                    <option value="qty4">4</option>
+                    <option value="qty5">5</option>
+                  </select>
+                </div>
+              </form>
+              <div class="stat-row">
+                Total Price: $<span class="price-tot"></span>
+              </div>
+              <div class="stat-row">
+                <button class="form-button buttons" ><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                <button class="form-button buttons" >Add to Wishlist</button>
+              </div>
+            </div>
+          </div> 
+        </div>
+<!-- END content for product information -->
+
+<script>/*allows the main content to fill the screen*/
+  jQuery('.main-content > .container').removeClass('container');
+</script>
+      </div>
+    </main>
+      <div id="shopify-section-footer" class="shopify-section">
+        <footer class="footer-container footer_layout_3 " style="margin: 0px 0px 0px 0px;">
+          <div class="footer-center">
+            <div class=" container"> 
+              <div class="row">
+<!--basic social media icons and footer copyright-->
+                <div class="col-12 footer-isocal text-center">
+                  <div class="footer-isocal">
+                    <div class="footer-icon-share">
+                      <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="">
+                        <i class="fab fa-pinterest"></i>
+                      </a>
+                      <a href="">
+                        <i class="fab fa-yelp"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-copyright">
+                    <address>
+                      Copyright © 2020 by E-Commerce Gang. All Rights Reserved.
+                    </address>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div id="back-top">
+          <a class="" href="top"><i class="fas fa-chevron-up" ></i></a>
+        </div>
+      </div>
+<!--Currency Dropdown Menu-->
+    <div class="off-canvas-layer"></div>
+    <section id="offcanvas" class="megamenu-canvas ">
+      <div id="off-canvas-button">
+        <span class="off-canvas-nav"><i class="fas fa-times-circle"></i></span>			
+      </div>
+      <div id="currencies-top" class="click-function">
+        <label>Currency: </label>
+        <div class="popup-title dropdown-toggle">
+          <span id="" class=" pre-currencies text-label"><img src="" alt="" />Type</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="dropdown-currency">
+          <ul id="" class="currencies currencies_ul list-unstyle">
+            <li class="">
+              <a data-currency="" class=" currency selected" rel="nofollow">                                
+              <img src="" alt="" />Type
+              </a>
+            </li>
+            <li class="">
+              <a data-currency="" class=" currency selected" rel="nofollow">                                
+              <img src="" alt="" />Type
+              </a>
+            </li>
+            <li class="">
+              <a data-currency="" class=" currency selected" rel="nofollow">                                
+              <img src="" alt="" />Type
+              </a>
+            </li>
+            <li class="">
+              <a data-currency="" class=" currency selected" rel="nofollow">                                
+              <img src="" alt="" />Type
+              </a>
+            </li>
+            <li class="">
+              <a data-currency="" class=" currency selected" rel="nofollow">                                
+              <img src="" alt="" />Type
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+<!-- Dropdown Currency menu script-->
+<script>
+  jQuery(function() {jQuery('.currencies li a').on('click', function() {jQuery('.pre-currencies').attr('data-currency', jQuery(this).data('currency'));});});
+</script>
+    </section>
+  </body>
+</html>
