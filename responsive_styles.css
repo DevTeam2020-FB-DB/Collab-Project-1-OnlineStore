@@ -2947,7 +2947,9 @@ label[for="productSelect"] {margin-bottom: 10px;}
 .cart-row .btn-secondary{ display: block; float: right; }
 .cart-desc {padding:10px;}
 .cart-image {float:left; height:6em; margin-right:10px;}
-.cart-btn {border:1px solid #000; background:white;}
+.cart-summary {width: 200px; position:fixed; right:2vw; top:20vh; padding:10px; background:#fff; border:1px solid #111;}
+.cart-btn-container {padding:10px 5px 5px 5px; text-align: center;}
+.cart-btn {border:1px solid #000; background:white; width:85%; margin:5px auto;}
 .cart-btn:hover {border:1px solid #dc9814; color:#dc9814;}
 
 #shipping-calculator { padding: 20px; }
@@ -2960,6 +2962,7 @@ label[for="productSelect"] {margin-bottom: 10px;}
 #get-rates-submit { margin: 10px 0; }
 
 .zoomContainer { z-index: 99; width: auto !important; height: auto !important;}
+
 
 
 /* search page */
