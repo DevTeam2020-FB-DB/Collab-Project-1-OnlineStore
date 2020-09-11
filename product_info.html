@@ -349,19 +349,34 @@
                       </div>
                     </td>
                     <td class="product-description-container product-info-container">
-<!--Product Description as unordered list. Can be anything in any format. this is just the container for it-->
-                      <h3 class="product-title">Product Name</h3>
                       <div class="description-container">
-                        <ul class="product-description">
+                        <div class="descr-navbar">
+                          <h3 class="product-title">Product Name</h3>
+                          <nav class="prod-info-nav">
+                            <button id="highlight-btn" class="navbar-link prod-info-btn">Highlights</button>
+                            <button id="descr-btn" class="navbar-link prod-info-btn">Description</button>
+                            <button id="specs-btn" class="navbar-link prod-info-btn">Specifications</button>
+                          </nav>
+                        </div>
+                        <div id="info-container">
+<!--The contents of this area can be set based on which button above is clicked. Default is highlights.-->
+                        <ul class="product-description prod-highlights">
                           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aliquam? Beatae necessitatibus reprehenderit voluptatem quos.</li>
                           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, rerum.</li>
                           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus nisi nostrum ut nulla voluptatem excepturi, magni dolorum deserunt eaque!</li>
                           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos omnis aperiam magni exercitationem, deleniti laudantium corporis eius.</li>
                           <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In eaque magnam nostrum voluptatem?</li>
                         </ul>
-                        <p class="product-description">
+                        <p class="product-description prod-full-descr">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur omnis, dolorum deleniti corrupti debitis eos eum exercitationem fugit. Cumque distinctio officiis voluptate rerum, amet, recusandae iste ut sed quibusdam dolore commodi a. Neque vitae, odio molestiae in totam porro nihil obcaecati corporis, eum blanditiis, ipsum iusto consectetur a iure tenetur?
                         </p>
+                        <ul class="product-description prod-specs">
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aliquam? Beatae necessitatibus reprehenderit voluptatem quos.</li>
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, rerum.</li>
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate temporibus nisi nostrum ut nulla voluptatem excepturi, magni dolorum deserunt eaque!</li>
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos omnis aperiam magni exercitationem, deleniti laudantium corporis eius.</li>
+                          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In eaque magnam nostrum voluptatem?</li>
+                        </ul>
                       </div>
                     </td>
                   </tr>
