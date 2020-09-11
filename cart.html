@@ -342,11 +342,26 @@
                     <li class="cart-item-container"><!--container/component for each shopping cart item-->
                         <table class="cart-item">
                             <tr class="cart-row">
-                                <td class="descriptions" width=75%>
+                                <td class="cart-image-container" width=20%;>
                                     <a href="" class="link-to-product-page"><h4 class="cart-item-name">Product Name</h4></a>
                                     <img class="cart-image" src="images/abstract-q-c-400-400-10.jpg">
+                                </td>
+                                <td>
                                     <p class="cart-desc short-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, sint qui assumenda unde illo nemo libero deserunt quod ipsum aut.</p>
-                                    <a href="" class="link-to-prod-page">See Item</a>
+                                    <div class="misc-cart-container">
+                                      <a href="" class="link-to-prod-page">See Item</a>
+                                      <div class="cart-qty-container">
+                                        <form id="cart-qty" style="display:inline-block;">
+                                          <select name="qty" id="qty-cart">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                          </select>
+                                        </form>
+                                        <button class="cart-qty-btn">Update</button>
+                                        <button title="Remove Item" class="cart-remove"><i class="fas fa-trash"></i></button>
+                                      </div>
+                                    </div>
                                 </td>
                                 <td class="prices" width=25%>
                                     <div class="cart-item-price moneys">Price</div>
@@ -357,11 +372,24 @@
                     <li>
                       <table class="cart-item">
                         <tr class="cart-row">
-                            <td class="descriptions" width=75%>
+                            <td class="cart-image-container" width=20%;>
                                 <a href="" class="link-to-product-page"><h4 class="cart-item-name">Product Name</h4></a>
                                 <img class="cart-image" src="images/abstract-q-c-400-400-10.jpg">
+                            </td>
+                            <td>
                                 <p class="cart-desc short-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, sint qui assumenda unde illo nemo libero deserunt quod ipsum aut.</p>
                                 <a href="" class="link-to-prod-page">See Item</a>
+                                <div class="cart-qty-container">
+                                  <form id="cart-qty" style="display:inline-block;">
+                                    <select name="qty" id="qty-cart">
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="3">3</option>
+                                    </select>
+                                  </form>
+                                  <button class="cart-qty-btn">Update</button>
+                                  <button title="Remove Item" class="cart-remove"><i class="fas fa-trash"></i></button>
+                                </div>
                             </td>
                             <td class="prices" width=25%>
                                 <div class="cart-item-price moneys">Price</div>
