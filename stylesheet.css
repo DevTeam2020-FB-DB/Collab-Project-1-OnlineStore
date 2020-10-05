@@ -1,0 +1,91 @@
+/*While this stylesheet will be quite large, I'll do my best to section it out based on pages. A quick [ctrl + F] search for the page will take you to the place where you need to be. I will also comment at the beginning of and throughout each section to describe what is contained and effected by each style.*/
+
+/*Font imports*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+/*Sitewide styles - This section is for styles consistent across the entire site. For instance, the sidebar, topbar, and footer will display exactly the same on each page and are styled in this section.*/
+html {
+    font-family:"Overpass", sans-serif;
+}
+html a{
+    text-decoration:none;
+    color:#222;
+}
+html a:hover{
+    color:#b90;
+}
+/*Sidebar Navigation Menus*/
+.site-nav-list{
+    list-style:none;
+}
+.submenu-link{
+    display:block;
+}
+/*Sidebar submenus*/
+.submenu-container{
+    display:inline-block;
+}
+/*Submenu feature products*/
+.submenu-feature-product{
+    width:150px;
+    height:150px;
+}
+/*Topbar Navigations*/
+/*Searchbar*/
+.site-search{
+    border:hidden;
+    border-radius:20px;
+    float:left;
+    margin:0px 10px 0px 10px;
+    padding:5px;
+    width:25%;
+    min-width:200px;
+}
+.site-search:hover, .site-search:active, .site-search:focus{
+    border:1px solid #b90;
+    margin:0px 9px 0px 9px;
+    outline:none;
+    color:#222;
+}
+.site-search-button{
+  background:transparent;
+  border:hidden;
+  color:#222;
+  padding:5px;
+  font-size:16px;
+}
+.site-search-button:hover{
+  color:#b90;
+}
+/*Account navigation Icons*/
+/*Footers*/
+/*Social Media Icons*/
+/*Copyrights*/
+
+/*Homepage specific styles*/
+/*Main Banner Carousels*/
+/*Feature Product Previews*/
+/*Infographics*/
+
+/*Account Login page styles*/
+/*Containers*/
+/*Forms*/
+/*Buttons*/
+
+/*Account Creation Page styles*/
+/*Main Container*/
+/*Form*/
+/*Buttons*/
+
+/*Cart Page styles*/
+/*Main Container*/
+/*Table*/
+/*Cart summary*/
+
+/*Product Info Page styles*/
+/*Product images*/
+/*Product description*/
+/*Product reviews*/
+/*Related Products*/
+/*Product Stat Box (for add to cart, etc.)*/
